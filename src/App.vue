@@ -1,17 +1,20 @@
 <template>
-    <!-- todo router -->
     <!-- todo install bootstrap -->
+    <!-- todo router -->
+    <Header/>
     <GalaxyAnimation/>
     <Main/>
 </template>
 
 <script>
-import {GalaxyAnimation, Main} from '@/components/main'
+import {Header} from "@/components/common";
+import {GalaxyAnimation, Main} from '@/components/main';
 
 export default {
     name: 'App',
     components: {
         GalaxyAnimation,
+        Header,
         Main
     }
 }

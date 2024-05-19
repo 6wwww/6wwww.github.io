@@ -1,9 +1,13 @@
+@font-face {
+  font-family: 'Teachers';
+  src: url('@/assets/fonts/teachers.ttf') format('truetype'),
+  url('@/assets/fonts/teachers.ttf') format('truetype');
+  font-weight: auto;
+  font-style: auto;
+}
+
 html {
   position: fixed;
-  overflow: auto;
-  left: 0;
-  right: 0;
-  top: 0;
   bottom: 0;
 
   /* todo light mode, dark mode */
